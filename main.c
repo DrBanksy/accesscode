@@ -323,9 +323,7 @@ void encryptCode(int* myarr, int* encrypted)
 
     }
 
-
 }
-
 
 //option 3
 //comparing encrypted code with access code (4523)
@@ -342,6 +340,7 @@ void compareCode(int* usersCode, int* accessCode, struct code_counter* ptr)
     static int stop = 0;
     while (stop == 0)
     {
+    	//change values of correct and wrong to keep track
         ptr->correct_code = 0;
         ptr->wrong_code = 0;
         stop++;

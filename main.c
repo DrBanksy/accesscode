@@ -4,9 +4,6 @@ which can then be encrypted and compared against the default access code
 (4523). User has the option to decrypt the code. The number of times the encrypted
 access code is correct/wrong will be displayed if user wishes.
 
-
-
-
 Author: Cormac Smith
 
 
